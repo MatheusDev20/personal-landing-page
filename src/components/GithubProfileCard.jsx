@@ -34,7 +34,7 @@ const GithubProfileCard = ({prof}) => {
                   </Row>
                 </div>
                 </Container>
-              </Card>
+              </Card>      
      );
 }
  
