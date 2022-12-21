@@ -1,7 +1,8 @@
 import emoji from "react-easy-emoji";
 
 import googlelogo from "./assets/img/icons/common/smartnx-logo.jpeg"
-
+import novaLogo from './assets/img/icons/common/nova1.png'
+import aktienow from './assets/img/icons/common/download.png'
 
 export const greetings = {
 	name: "Matheus de Paula",
@@ -16,8 +17,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	instagram: "https://www.instagram.com/matheus.de.paula_f/",
-	twitter: "https://twitter.com/_math3us__",
 	github: "https://github.com/MatheusDev20",
 	linkedin: "https://www.linkedin.com/in/matheusdev20/",
 };
@@ -126,7 +125,7 @@ export const experience = [
 		company: "Smartnx",
 		companylogo: googlelogo,
 		date: "Dezembro 2019 - Julho - 2020",
-		desc: "Testes manuais exploratórios nos produtos da empresa, automatização de alguns processos de teste.",
+		desc: "Estagiário no setor de testes e automação",
 		descBullets: [
 			"Python",
 			"Selenium",
@@ -139,15 +138,44 @@ export const experience = [
 		role: "Analista de sistemas júnior",
 		company: "Smartnx",
 		companylogo: googlelogo,
-		date: "Julho 2020 – Atual",
-		desc: "Desenvolvimento de features e manutenção nos produtos da empresa.",
+		date: "Julho 2020 – Abril 2022",
+		desc: "Desenvolvimento Backend Python (Flask)",
 		descBullets: [
 			"Python",
 			"PostgreSQL",
 			"AWS Lambda",
 			"Flask",
 			"SQL-Alchemy",
-			"React"
+		],
+
+	},
+	{
+		role: "Desenvolvedor Backend",
+		company: "Nova Tendência",
+		companylogo: novaLogo,
+		date: "Abril 2022 – Agosto 2022 ",
+		desc: "Desenvolvedor Backend Java",
+		descBullets: [
+			"Java",
+			"Spring Boot",
+			"AWS Lambda",
+			"AWS Cognito",
+			"GIT"
+		],
+
+	},
+	{
+		role: "Desenvolvedor Full Stack",
+		company: "Aktie Now",
+		companylogo: aktienow,
+		date: "Agosto 2022 – Atual ",
+		desc: "Desenvolvedor Full stack Javascript",
+		descBullets: [
+			"React JS",
+			"Node JS",
+			"Nest JS",
+			"Typescript",
+			"Javascript",
 		],
 
 	},
