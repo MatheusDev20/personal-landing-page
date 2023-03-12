@@ -6,7 +6,7 @@ import aktienow from './assets/img/icons/common/download.png'
 
 export const greetings = {
 	name: "Matheus de Paula",
-	title: "Desenvolvedor Júnior",
+	title: "Desenvolvedor Full Stack",
 	description: "Apaixonado por tecnologia, busco desenvolver soluções com as mais recentes e melhores ferramentas do mercado."
 };
 
