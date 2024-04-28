@@ -8,6 +8,7 @@ import {
 } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
+// https://avatars.githubusercontent.com/u/55402924?v=4
 
 const GithubProfileCard = ({prof}) => {
     return ( 
@@ -16,7 +17,7 @@ const GithubProfileCard = ({prof}) => {
                 <div className="p-2">
                   <Row className="">
                   <Col className="order-lg-2" lg="4">
-                      <img src="https://avatars.githubusercontent.com/u/55402924?v=4" style={{width: "200px"}} alt="" className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"/>
+                      <img src="https://media.licdn.com/dms/image/D4D03AQFn3dBsMhEtTw/profile-displayphoto-shrink_800_800/0/1710790819550?e=1720051200&v=beta&t=qLXFJv19-q913BJlwgzHZgDb1znxtS7_t-mPwY3oH1I" style={{width: "200px"}} alt="" className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"/>
                     </Col>
                     <Col lg="8" className="order-lg-1">
                       <h2 className="text-white">
